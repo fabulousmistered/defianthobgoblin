@@ -1,0 +1,27 @@
+<!-- res/layout/activity_alarm.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_red_light"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarm!"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/stopAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Alarm"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"/>
+</LinearLayout>
